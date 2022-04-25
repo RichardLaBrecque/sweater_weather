@@ -1,13 +1,9 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/rcl/turing/3module/projects/sweater_weather_api/app/controllers/api/v1/background_controller.rb": {
+      "/Users/rcl/turing/3module/projects/sweater_weather_api/app/controllers/api/v1/munchies_controller.rb": {
         "lines": [
           1,
-          1,
-          1,
-          1,
-          null,
           null
         ]
       },
@@ -16,61 +12,8 @@
           1,
           null
         ]
-      },
-      "/Users/rcl/turing/3module/projects/sweater_weather_api/app/facades/background_facade.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/rcl/turing/3module/projects/sweater_weather_api/app/services/background_service.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/rcl/turing/3module/projects/sweater_weather_api/app/poros/background.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/rcl/turing/3module/projects/sweater_weather_api/app/serializers/background_serializer.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          null
-        ]
       }
     },
-    "timestamp": 1650851135
+    "timestamp": 1650900044
   }
 }
