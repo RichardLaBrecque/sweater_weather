@@ -10,7 +10,6 @@ class MunchieService
      search.params[:location] = location
      search.params[:term] = food
    end
-  wip = JSON.parse(response.body, symbolize_names: true)
-  binding.pry
+   JSON.parse(response.body, symbolize_names: true)
   end
 end
