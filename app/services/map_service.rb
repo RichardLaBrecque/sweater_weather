@@ -5,7 +5,7 @@ class MapService
     end
   end
   def self.convert(location)
-    response = conn.get("geocoding/v1address?location=#{location}")
+    response = conn.get("geocoding/v1/address?location=#{location}")
     JSON.parse(response.body, symbolize_names: true)
   end
 
@@ -14,7 +14,6 @@ class MapService
       map.params[:from] = start
       map.params[:to] = destination
     end
-    wip = JSON.parse(response.body, symbolize_names: true)
-    binding.pry
+    JSON.parse(response.body, symbolize_names: true)
   end
 end
