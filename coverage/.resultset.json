@@ -4,6 +4,10 @@
       "/Users/rcl/turing/3module/projects/sweater_weather_api/app/controllers/api/v1/munchies_controller.rb": {
         "lines": [
           1,
+          1,
+          1,
+          0,
+          null,
           null
         ]
       },
@@ -12,8 +16,41 @@
           1,
           null
         ]
+      },
+      "/Users/rcl/turing/3module/projects/sweater_weather_api/app/facades/map_facade.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/rcl/turing/3module/projects/sweater_weather_api/app/services/map_service.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          0,
+          0,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1650900044
+    "timestamp": 1650900698
   }
 }
