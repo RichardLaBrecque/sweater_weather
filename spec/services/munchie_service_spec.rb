@@ -9,6 +9,6 @@ RSpec.describe 'Munchie Service' do
     expect(munchies[:businesses][0]).to be_a Hash
     expect(munchies[:businesses][0]).to have_key(:name)
     expect(munchies[:businesses][0]).to have_key(:location)
-    expect(munchies[:businesses][0][:location]).to have_key(:display_address)
+    expect(munchies[:businesses][0][:location]).to have_key(:display_address) 
   end
 end
