@@ -10,6 +10,6 @@ RSpec.describe 'Map Service' do
     expect(convertion[:results][0]).to have_key(:locations)
     expect(convertion[:results][0][:locations]).to be_a Array
     expect(convertion[:results][0][:locations][0]).to be_a Hash
-    expect(convertion[:results][0][:locations][0]).to have_key[:latLng]
+    expect(convertion[:results][0][:locations][0]).to have_key(:latLng)
   end
 end
