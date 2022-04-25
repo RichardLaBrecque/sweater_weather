@@ -14,7 +14,7 @@
       <img src="./assets/0.12.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2022-04-24T20:10:43-04:00">2022-04-24T20:10:43-04:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2022-04-24T21:45:35-04:00">2022-04-24T21:45:35-04:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -43,8 +43,8 @@
   </div>
 
   <div class="t-line-summary">
-    <b>27</b> relevant lines,
-    <span class="green"><b>27</b> lines covered</span> and
+    <b>24</b> relevant lines,
+    <span class="green"><b>24</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed. </span>
     (<span class="green">
   100.0%
@@ -71,7 +71,7 @@
       <tbody>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#11798a0c0ea3c4b584216f877ccf9beec04b8e14" class="src_link" title="app/controllers/api/v1/forecast_controller.rb">app/controllers/api/v1/forecast_controller.rb</a></td>
+            <td class="strong t-file__name"><a href="#119e5affd74e667d560c0f304927995c86419211" class="src_link" title="app/controllers/api/v1/background_controller.rb">app/controllers/api/v1/background_controller.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">6</td>
             <td class="cell--number">4</td>
@@ -93,7 +93,7 @@
           </tr>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#9717ee11f558416fd0abacdb4d97bba5dffe257c" class="src_link" title="app/facades/forecast_facade.rb">app/facades/forecast_facade.rb</a></td>
+            <td class="strong t-file__name"><a href="#55e75dcd13a8096c431db03b7c220d9a36b992fe" class="src_link" title="app/facades/background_facade.rb">app/facades/background_facade.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">7</td>
             <td class="cell--number">5</td>
@@ -104,7 +104,18 @@
           </tr>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#5f44870043c509c27324ad66ee4d0c78328becf5" class="src_link" title="app/serializers/forecast_serializer.rb">app/serializers/forecast_serializer.rb</a></td>
+            <td class="strong t-file__name"><a href="#67d9b63f0af3d4b790f4f45106a10743a3499042" class="src_link" title="app/poros/background.rb">app/poros/background.rb</a></td>
+            <td class="green strong cell--number t-file__coverage">100.00 %</td>
+            <td class="cell--number">13</td>
+            <td class="cell--number">4</td>
+            <td class="cell--number">4</td>
+            <td class="cell--number">0</td>
+            <td class="cell--number">1.00</td>
+            
+          </tr>
+        
+          <tr class="t-file">
+            <td class="strong t-file__name"><a href="#b763c0b6375ef2475487eef11b575cf0902000d4" class="src_link" title="app/serializers/background_serializer.rb">app/serializers/background_serializer.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">4</td>
             <td class="cell--number">3</td>
@@ -115,20 +126,9 @@
           </tr>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#54d50bcd60fe5cf78868140bfa2453c01bdf01e8" class="src_link" title="app/services/map_service.rb">app/services/map_service.rb</a></td>
+            <td class="strong t-file__name"><a href="#4228092e00b8fd99ed73471e285ae6a566304f49" class="src_link" title="app/services/background_service.rb">app/services/background_service.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">11</td>
-            <td class="cell--number">7</td>
-            <td class="cell--number">7</td>
-            <td class="cell--number">0</td>
-            <td class="cell--number">1.00</td>
-            
-          </tr>
-        
-          <tr class="t-file">
-            <td class="strong t-file__name"><a href="#14c45d8bda5f5c38cb47a96a744ebab63c7963b7" class="src_link" title="app/services/weather_service.rb">app/services/weather_service.rb</a></td>
-            <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">11</td>
+            <td class="cell--number">13</td>
             <td class="cell--number">7</td>
             <td class="cell--number">7</td>
             <td class="cell--number">0</td>
@@ -153,9 +153,9 @@
 
       <div class="source_files">
       
-        <div class="source_table" id="11798a0c0ea3c4b584216f877ccf9beec04b8e14">
+        <div class="source_table" id="119e5affd74e667d560c0f304927995c86419211">
   <div class="header">
-    <h3>app/controllers/api/v1/forecast_controller.rb</h3>
+    <h3>app/controllers/api/v1/background_controller.rb</h3>
     <h4>
       <span class="green">
   100.0%
@@ -186,7 +186,7 @@
 
             
 
-            <code class="ruby">class Api::V1::ForecastController &lt; ApplicationController</code>
+            <code class="ruby">class Api::V1::BackgroundController &lt; ApplicationController</code>
           </li>
         </div>
       
@@ -208,7 +208,7 @@
 
             
 
-            <code class="ruby">    forecast = ForecastFacade.get_forecast(params[:location])</code>
+            <code class="ruby">    background = BackgroundFacade.get_background(params[:location])</code>
           </li>
         </div>
       
@@ -219,7 +219,7 @@
 
             
 
-            <code class="ruby">    render json: ForecastSerializer.new(forecast)</code>
+            <code class="ruby">    render json: BackgroundSerializer.new(background)</code>
           </li>
         </div>
       
@@ -303,9 +303,9 @@
 </div>
 
       
-        <div class="source_table" id="9717ee11f558416fd0abacdb4d97bba5dffe257c">
+        <div class="source_table" id="55e75dcd13a8096c431db03b7c220d9a36b992fe">
   <div class="header">
-    <h3>app/facades/forecast_facade.rb</h3>
+    <h3>app/facades/background_facade.rb</h3>
     <h4>
       <span class="green">
   100.0%
@@ -336,7 +336,7 @@
 
             
 
-            <code class="ruby">class ForecastFacade</code>
+            <code class="ruby">class BackgroundFacade</code>
           </li>
         </div>
       
@@ -347,7 +347,7 @@
 
             
 
-            <code class="ruby">  def self.get_forecast(location)</code>
+            <code class="ruby">  def self.get_background(location)</code>
           </li>
         </div>
       
@@ -358,7 +358,7 @@
 
             
 
-            <code class="ruby">    coords = MapService.convert(location)</code>
+            <code class="ruby">     location_array = location.split(&quot;,&quot;)</code>
           </li>
         </div>
       
@@ -369,7 +369,7 @@
 
             
 
-            <code class="ruby">    weather = WeatherService.current_forcast(coords[:results].first[:locations].first[:latLng])</code>
+            <code class="ruby">    image = BackgroundService.get_background_image(location_array.first)</code>
           </li>
         </div>
       
@@ -380,7 +380,7 @@
 
             
 
-            <code class="ruby">    Forecast.new(weather)</code>
+            <code class="ruby">    Background.new(image, location)</code>
           </li>
         </div>
       
@@ -411,9 +411,183 @@
 </div>
 
       
-        <div class="source_table" id="5f44870043c509c27324ad66ee4d0c78328becf5">
+        <div class="source_table" id="67d9b63f0af3d4b790f4f45106a10743a3499042">
   <div class="header">
-    <h3>app/serializers/forecast_serializer.rb</h3>
+    <h3>app/poros/background.rb</h3>
+    <h4>
+      <span class="green">
+  100.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>4</b> relevant lines.
+      <span class="green"><b>4</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+
+    
+
+  </div>
+
+  <pre>
+    <ol>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">class Background</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="2">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  attr_reader :id, :image</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="3">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def initialize(hash, location)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="4">
+            
+            
+
+            
+
+            <code class="ruby">    @id</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="5">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    @image = { location: location,</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="6">
+            
+            
+
+            
+
+            <code class="ruby">              image_url: hash[:photos][0][:url],</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="7">
+            
+            
+
+            
+
+            <code class="ruby">              credit: { provided_by: &quot;https://www.pexels.com&quot;,</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="8">
+            
+            
+
+            
+
+            <code class="ruby">                        photographer: hash[:photos][0][:photographer],</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="9">
+            
+            
+
+            
+
+            <code class="ruby">                        photographer_url: hash[:photos][0][:photographer_url]}</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="10">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="11">
+            
+            
+
+            
+
+            <code class="ruby">    }</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="12">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="13">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="b763c0b6375ef2475487eef11b575cf0902000d4">
+  <div class="header">
+    <h3>app/serializers/background_serializer.rb</h3>
     <h4>
       <span class="green">
   100.0%
@@ -444,7 +618,7 @@
 
             
 
-            <code class="ruby">class ForecastSerializer</code>
+            <code class="ruby">class BackgroundSerializer</code>
           </li>
         </div>
       
@@ -455,7 +629,7 @@
 
             
 
-            <code class="ruby">  include JSONAPI::Serializer</code>
+            <code class="ruby">include JSONAPI::Serializer</code>
           </li>
         </div>
       
@@ -466,7 +640,7 @@
 
             
 
-            <code class="ruby">  attributes :current_weather, :daily_weather, :hourly_weather</code>
+            <code class="ruby">attributes :id, :image</code>
           </li>
         </div>
       
@@ -486,9 +660,9 @@
 </div>
 
       
-        <div class="source_table" id="54d50bcd60fe5cf78868140bfa2453c01bdf01e8">
+        <div class="source_table" id="4228092e00b8fd99ed73471e285ae6a566304f49">
   <div class="header">
-    <h3>app/services/map_service.rb</h3>
+    <h3>app/services/background_service.rb</h3>
     <h4>
       <span class="green">
   100.0%
@@ -519,170 +693,18 @@
 
             
 
-            <code class="ruby">class MapService</code>
+            <code class="ruby">class BackgroundService</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="2">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">  def self.conn</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="3">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">    Faraday.new(url: &quot;http://www.mapquestapi.com/geocoding/v1&quot;) do |faraday|</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="4">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">      faraday.params[&quot;key&quot;] = ENV[&#39;map_api_key&#39;]</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="5">
+          <li class="never" data-hits="" data-linenumber="2">
             
             
 
             
 
-            <code class="ruby">    end</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="6">
-            
-            
-
-            
-
-            <code class="ruby">  end</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="7">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">  def self.convert(location)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="8">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">    response = conn.get(&quot;address?location=#{location}&quot;)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="9">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">    JSON.parse(response.body, symbolize_names: true)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="10">
-            
-            
-
-            
-
-            <code class="ruby">  end</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="11">
-            
-            
-
-            
-
-            <code class="ruby">end</code>
-          </li>
-        </div>
-      
-    </ol>
-  </pre>
-</div>
-
-      
-        <div class="source_table" id="14c45d8bda5f5c38cb47a96a744ebab63c7963b7">
-  <div class="header">
-    <h3>app/services/weather_service.rb</h3>
-    <h4>
-      <span class="green">
-  100.0%
-</span>
-
-      lines covered
-    </h4>
-
-    
-
-    <div class="t-line-summary">
-      <b>7</b> relevant lines.
-      <span class="green"><b>7</b> lines covered</span> and
-      <span class="red"><b>0</b> lines missed.</span>
-    </div>
-
-    
-
-  </div>
-
-  <pre>
-    <ol>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="1">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">class WeatherService</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="2">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">  def self.conn</code>
+            <code class="ruby"></code>
           </li>
         </div>
       
@@ -693,7 +715,7 @@
 
             
 
-            <code class="ruby">    Faraday.new(url: &quot;https://api.openweathermap.org/data/2.5&quot;) do |faraday|</code>
+            <code class="ruby">  def self.conn</code>
           </li>
         </div>
       
@@ -704,18 +726,18 @@
 
             
 
-            <code class="ruby">      faraday.params[:appid] = ENV[&quot;weather_key&quot;]</code>
+            <code class="ruby">    Faraday.new(url: &quot;https://api.pexels.com/v1&quot;) do |faraday|</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="5">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="5">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">    end</code>
+            
+
+            <code class="ruby">      faraday.params[&quot;Authorization&quot;] = ENV[&quot;background_api_key&quot;]</code>
           </li>
         </div>
       
@@ -726,18 +748,18 @@
 
             
 
-            <code class="ruby">  end</code>
+            <code class="ruby">    end</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="7">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="7">
+            
             
 
             
 
-            <code class="ruby">  def self.current_forcast(location)</code>
+            <code class="ruby">  end</code>
           </li>
         </div>
       
@@ -748,7 +770,7 @@
 
             
 
-            <code class="ruby">    response = conn.get(&quot;onecall?lat=#{location[:lat]}&amp;lon=#{location[:lng]}&amp;exclude=minutely,alerts&amp;units=imperial&quot;)</code>
+            <code class="ruby">  def self.get_background_image(location)</code>
           </li>
         </div>
       
@@ -759,12 +781,34 @@
 
             
 
-            <code class="ruby">    JSON.parse(response.body, symbolize_names: true)</code>
+            <code class="ruby">    response = conn.get(&quot;search?query=#{location}&amp;per_page=1&quot;)</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="10">
+          <li class="covered" data-hits="1" data-linenumber="10">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">   JSON.parse(response.body, symbolize_names: true)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="11">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="12">
             
             
 
@@ -775,7 +819,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="11">
+          <li class="never" data-hits="" data-linenumber="13">
             
             
 
