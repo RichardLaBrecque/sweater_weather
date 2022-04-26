@@ -8,7 +8,10 @@ class User < ApplicationRecord
 private
 
   def normalize_email
-    self.email = self.email.downcase
+    if self.email
+      self.email = self.email.downcase
+    end
+
   end
 
 
