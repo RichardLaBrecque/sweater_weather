@@ -1,12 +1,67 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/rcl/turing/3module/projects/sweater_weather_api/app/controllers/api/v1/forecast_controller.rb": {
+      "/Users/rcl/turing/3module/projects/sweater_weather_api/app/models/user.rb": {
         "lines": [
           1,
           1,
+          null,
           1,
           1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          2,
+          2,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/rcl/turing/3module/projects/sweater_weather_api/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/rcl/turing/3module/projects/sweater_weather_api/app/controllers/api/v1/user_controller.rb": {
+        "lines": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          1,
+          2,
+          2,
+          0,
+          2,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          0,
           null,
           null
         ]
@@ -17,48 +72,7 @@
           null
         ]
       },
-      "/Users/rcl/turing/3module/projects/sweater_weather_api/app/facades/forecast_facade.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/rcl/turing/3module/projects/sweater_weather_api/app/services/map_service.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/rcl/turing/3module/projects/sweater_weather_api/app/services/weather_service.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/rcl/turing/3module/projects/sweater_weather_api/app/serializers/forecast_serializer.rb": {
+      "/Users/rcl/turing/3module/projects/sweater_weather_api/app/serializers/user_serializer.rb": {
         "lines": [
           1,
           1,
@@ -67,6 +81,6 @@
         ]
       }
     },
-    "timestamp": 1650845443
+    "timestamp": 1650936381
   }
 }
