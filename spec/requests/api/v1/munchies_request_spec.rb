@@ -11,12 +11,11 @@ RSpec.describe 'munchies requests' do
     expect(munchie[:data]).to have_key(:type)
     expect(munchie[:data][:type]).to eq("munchie")
     expect(munchie[:data]).to have_key(:attributes)
-    expect(munchie[:data][:attributes]).to have_key(:destination)
+    expect(munchie[:data][:attributes]).to have_key(:destination_city)
     expect(munchie[:data][:attributes]).to have_key(:travel_time)
     expect(munchie[:data][:attributes]).to have_key(:forecast)
     expect(munchie[:data][:attributes]).to have_key(:restaurant)
     expect(munchie[:data][:attributes][:restaurant]).to have_key(:name)
     expect(munchie[:data][:attributes][:restaurant]).to have_key(:address)
-    binding.pry
   end
 end
