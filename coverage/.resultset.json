@@ -1,12 +1,46 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/rcl/turing/3module/projects/sweater_weather_api/app/poros/munchie.rb": {
+      "/Users/rcl/turing/3module/projects/sweater_weather_api/app/models/user.rb": {
         "lines": [
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
           1,
           1,
           1,
           null,
+          1,
+          13,
+          10,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/rcl/turing/3module/projects/sweater_weather_api/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/rcl/turing/3module/projects/sweater_weather_api/spec/poros/munchie_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
           1,
           1,
           1,
@@ -15,7 +49,266 @@
           null
         ]
       },
-      "/Users/rcl/turing/3module/projects/sweater_weather_api/app/facades/map_facade.rb": {
+      "/Users/rcl/turing/3module/projects/sweater_weather_api/app/poros/munchie.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          2,
+          2,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/rcl/turing/3module/projects/sweater_weather_api/spec/requests/api/v1/background_request_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/rcl/turing/3module/projects/sweater_weather_api/spec/requests/api/v1/forcast_request_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/rcl/turing/3module/projects/sweater_weather_api/spec/requests/api/v1/munchies_request_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/rcl/turing/3module/projects/sweater_weather_api/spec/requests/api/v1/road_trip_request_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/rcl/turing/3module/projects/sweater_weather_api/spec/requests/api/v1/sessions_request_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/rcl/turing/3module/projects/sweater_weather_api/spec/requests/api/v1/user_request_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/rcl/turing/3module/projects/sweater_weather_api/spec/services/background_service_spec.rb": {
+        "lines": [
+
+        ]
+      },
+      "/Users/rcl/turing/3module/projects/sweater_weather_api/spec/services/map_service_spec.rb": {
         "lines": [
           1,
           1,
@@ -23,6 +316,48 @@
           1,
           1,
           1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/rcl/turing/3module/projects/sweater_weather_api/spec/services/munchie_service_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/rcl/turing/3module/projects/sweater_weather_api/spec/services/weather_service_spec.rb": {
+        "lines": [
+
+        ]
+      },
+      "/Users/rcl/turing/3module/projects/sweater_weather_api/app/facades/map_facade.rb": {
+        "lines": [
+          1,
+          1,
+          5,
+          5,
+          5,
+          5,
           null,
           null,
           null
@@ -32,21 +367,21 @@
         "lines": [
           1,
           1,
-          2,
-          2,
+          12,
+          12,
           null,
           null,
           1,
-          1,
-          1,
+          7,
+          7,
           null,
           null,
           1,
-          1,
-          1,
-          1,
+          5,
+          5,
+          5,
           null,
-          1,
+          5,
           null,
           null
         ]
@@ -55,9 +390,9 @@
         "lines": [
           1,
           1,
-          1,
-          1,
-          1,
+          6,
+          6,
+          6,
           null,
           null
         ]
@@ -66,13 +401,13 @@
         "lines": [
           1,
           1,
-          1,
-          1,
+          6,
+          6,
           null,
           null,
           1,
-          1,
-          1,
+          6,
+          6,
           null,
           null
         ]
@@ -83,15 +418,15 @@
           1,
           1,
           null,
-          1,
-          1,
-          1,
-          1,
+          6,
+          6,
+          6,
+          6,
           null,
           null,
           1,
-          1,
-          1,
+          6,
+          6,
           null,
           null,
           null,
@@ -102,9 +437,9 @@
           null,
           null,
           null,
-          1,
-          1,
-          5,
+          6,
+          6,
+          30,
           null,
           null,
           null,
@@ -113,9 +448,9 @@
           null,
           null,
           null,
-          1,
-          1,
-          8,
+          6,
+          6,
+          48,
           null,
           null,
           null,
@@ -128,7 +463,7 @@
         "lines": [
           1,
           1,
-          1,
+          2,
           null,
           null
         ]
@@ -137,22 +472,232 @@
         "lines": [
           1,
           1,
-          1,
-          1,
+          3,
+          3,
           null,
           null,
           null,
           1,
-          1,
-          1,
-          1,
+          3,
+          3,
+          3,
           null,
+          3,
+          null,
+          null
+        ]
+      },
+      "/Users/rcl/turing/3module/projects/sweater_weather_api/app/controllers/api/v1/background_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
           1,
           null,
           null
         ]
+      },
+      "/Users/rcl/turing/3module/projects/sweater_weather_api/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/rcl/turing/3module/projects/sweater_weather_api/app/facades/background_facade.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/rcl/turing/3module/projects/sweater_weather_api/app/services/background_service.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/rcl/turing/3module/projects/sweater_weather_api/app/poros/background.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/rcl/turing/3module/projects/sweater_weather_api/app/serializers/background_serializer.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/rcl/turing/3module/projects/sweater_weather_api/app/controllers/api/v1/forecast_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/rcl/turing/3module/projects/sweater_weather_api/app/serializers/forecast_serializer.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/rcl/turing/3module/projects/sweater_weather_api/app/controllers/api/v1/munchies_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/rcl/turing/3module/projects/sweater_weather_api/app/serializers/munchie_serializer.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/rcl/turing/3module/projects/sweater_weather_api/app/controllers/api/v1/road_trip_controller.rb": {
+        "lines": [
+          1,
+          1,
+          3,
+          3,
+          3,
+          1,
+          null,
+          2,
+          2,
+          null,
+          null,
+          0,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/rcl/turing/3module/projects/sweater_weather_api/app/poros/road_trip.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          null,
+          null,
+          1,
+          2,
+          2,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          null,
+          0,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/rcl/turing/3module/projects/sweater_weather_api/app/serializers/roadtrip_serializer.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/rcl/turing/3module/projects/sweater_weather_api/app/controllers/api/v1/user_controller.rb": {
+        "lines": [
+          1,
+          1,
+          4,
+          1,
+          3,
+          1,
+          2,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          2,
+          2,
+          0,
+          2,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/rcl/turing/3module/projects/sweater_weather_api/app/serializers/user_serializer.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
       }
     },
-    "timestamp": 1650993621
+    "timestamp": 1650994548
   }
 }
