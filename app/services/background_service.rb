@@ -2,7 +2,7 @@ class BackgroundService
 
   def self.conn
     Faraday.new(url: "https://api.pexels.com/v1") do |faraday|
-      faraday.params["Authorization"] = ENV["background_api_key"]
+      faraday.headers["Authorization"] = ENV["background_api_key"]
     end
   end
   def self.get_background_image(location)
