@@ -19,7 +19,7 @@ class Api::V1::UserController < ApplicationController
       render json: {data: {message: "well thats not right, try something different"}}, status: :bad_request
     elsif user.authenticate(params[:password])
       render json: UserSerializer.new(user)
-    elsif
+    else
         render json: {data: {message: "well thats not right, try something different"}}, status: :bad_request
     end
   end

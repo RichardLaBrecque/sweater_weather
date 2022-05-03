@@ -19,11 +19,11 @@ http_interactions:
       message: ''
     headers:
       Date:
-      - Mon, 25 Apr 2022 17:05:51 GMT
+      - Tue, 26 Apr 2022 21:41:59 GMT
       Content-Type:
       - application/json;charset=UTF-8
-      Content-Length:
-      - '1041'
+      Transfer-Encoding:
+      - chunked
       Access-Control-Allow-Methods:
       - OPTIONS,GET,POST
       Access-Control-Allow-Origin:
@@ -35,13 +35,13 @@ http_interactions:
       Geocodetransactioncount:
       - '1'
       Last-Modified:
-      - Mon, 25 Apr 2022 17:05:51 GMT
+      - Tue, 26 Apr 2022 21:41:59 GMT
       Pragma:
       - no-cache
       Reversegeocodetransactioncount:
       - '0'
       Set-Cookie:
-      - JSESSIONID=496C8633124C2FF5E54648E88D58EE92; Path=/; HttpOnly
+      - JSESSIONID=E91777473A27D33A8E5C8F0CF6FEC3AF; Path=/; HttpOnly
       Status:
       - success
       Transactionweight:
@@ -52,6 +52,6 @@ http_interactions:
         Inc.","imageUrl":"http://api.mqcdn.com/res/mqlogo.gif","imageAltText":"\u00A9
         2022 MapQuest, Inc."},"messages":[]},"options":{"maxResults":-1,"thumbMaps":true,"ignoreLatLngInput":false},"results":[{"providedLocation":{"location":"Providence,
         RI"},"locations":[{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"Providence","adminArea5Type":"City","adminArea4":"Providence
-        County","adminArea4Type":"County","adminArea3":"RI","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A5XAX","geocodeQuality":"CITY","dragPoint":false,"sideOfStreet":"N","linkId":"282040064","unknownInput":"","type":"s","latLng":{"lat":41.824461,"lng":-71.412747},"displayLatLng":{"lat":41.824461,"lng":-71.412747},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=k614zkilBmetqH8yHdIL6SAZ2HO1KeHA&type=map&size=225,160&locations=41.824461,-71.412747|marker-sm-50318A-1&scalebar=true&zoom=12&rand=364721991"}]}]}'
-  recorded_at: Mon, 25 Apr 2022 17:05:51 GMT
+        County","adminArea4Type":"County","adminArea3":"RI","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A5XAX","geocodeQuality":"CITY","dragPoint":false,"sideOfStreet":"N","linkId":"282040064","unknownInput":"","type":"s","latLng":{"lat":41.824461,"lng":-71.412747},"displayLatLng":{"lat":41.824461,"lng":-71.412747},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=k614zkilBmetqH8yHdIL6SAZ2HO1KeHA&type=map&size=225,160&locations=41.824461,-71.412747|marker-sm-50318A-1&scalebar=true&zoom=12&rand=-1585809658"}]}]}'
+  recorded_at: Tue, 26 Apr 2022 21:41:59 GMT
 recorded_with: VCR 6.1.0
